@@ -14,7 +14,7 @@ for (const value_of_array_2 of Array2) {
     console.log(value_of_array_2);
 }
 
-// printing value with array also
+// printing value with array index also
 console.log('printing value with array also');
 for (const [indexNum, value] of Array1.entries()) {
     console.log(indexNum, value);
